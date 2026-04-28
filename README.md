@@ -159,7 +159,7 @@ An interactive web interface where users paste a Vietnamese article and a summar
  
 The fine-tuned Vietnamese fact-checking model is available on Hugging Face:
  
-**[sunflowerbiii/infi-check-qwen25-7b-qlor](https://huggingface.co/sunflowerbiii/infi-check-qwen25-7b-qlor)**
+**[sunflowerbiii/infi-check-qwen25-7b-qlor](https://huggingface.co/sunflowerbiii/infi-check-qwen25-7b-qlora-c)**
  
 Built on Qwen2.5-7B with QLoRA fine-tuning on the VInFi-Check Vietnamese fact-checking dataset.
  

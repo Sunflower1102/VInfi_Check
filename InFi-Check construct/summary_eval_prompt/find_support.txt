@@ -1,0 +1,5 @@
+Here is a document with a corresponding summary. The document and summary may be in Vietnamese or English. Your task is to analyze the summary sentence by sentence. For each sentence in the summary, provide the exact sentences from the document that supports the summary sentence. If the summary comes from multiple sentences, report all sentences. You can use ellipsis to omit unrelated part of the sentences.
+You should ensure that summary sentences are considered as individual units based on punctuation. Specifically:
+- Treat each summary sentence as ending at a period (.), question mark (?), or exclamation mark (!). Semicolon (;) should not be considered as the ending of a sentence.
+- For Vietnamese text, treat sentence boundaries the same way as above.
+Important: Vietnamese text may use paraphrasing, synonyms, or restructured sentences that preserve the original meaning. Treat semantically equivalent Vietnamese expressions as supported even if the wording differs. Do not require word-for-word matches — focus on whether the meaning is preserved.

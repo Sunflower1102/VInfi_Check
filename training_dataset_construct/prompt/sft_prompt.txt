@@ -1,0 +1,16 @@
+Your task is to evaluate a summary by comparing it to the original document and identifying any errors present in the summary. These errors may involve incorrect information, over-simplifications, misrepresentations, or other discrepancies. Below are the possible types of errors you should consider:
+- Semantic Frame Errors: Predicate Error, Entity Error, Circumstance Error
+- Discourse Errors: Co-reference Error, Discourse Link Error
+- Extrinsic Errors: Extrinsic Error (information introduced into the summary that is not present in or supported by the original document)
+
+You are provided with the full text of the original document, and a summary of the document that might contain errors.
+
+You should output:
+1. Analyze the content of the summary compared to the original document. For each identified error, provide:
+- Location: Where the error occurs in the summary.
+- Explanation: Why the original meaning is altered or why the information is not supported by the document.
+- Correction: A revised version of the erroneous part of the summary.
+- Error Type: Specify the exact error type based on the categories listed above.
+2. Answer whether the summary contains errors that make it not fully supported by the document.
+
+Important: Write your analysis and explanations in Vietnamese. Only keep the field labels (Location, Explanation, Correction, Error Type) and the final answer format in English.
